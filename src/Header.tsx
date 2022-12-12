@@ -1,72 +1,76 @@
-import React from 'react';
-import './style.css';
+import React, {useState} from 'react';
+import DropdownCountry from "./dropdownCountry"
 import {
-    BrowserRouter as Router,
-    Route,
-    Routes,
-    Link
+    Link,
+    Outlet
 } from "react-router-dom";
+import DropdownService from "./dropdownService";
+import Menu from "./menu/Menu";
 
-
-import Login from "./Login";
-import Home from "./Home";
 
 function App() {
+    const [visibleCountry, setVisibleCountry] = useState(false)
+    const [visibleService, setVisibleService] = useState(false)
+    const [menuActive, setMenuActive] = useState(false)
+    const [active, isActive] = useState(false)
+
     return (
-        <Router>
+        <>
             <header>
                 <div className="container">
                     <a href="/">
-                        <img src="img/logo.png" alt=""/>
+                        <img className='logo' src="../img/logo.png" alt=""/>
                     </a>
                     <ul className="header__list">
                         <li className="bldropdown">
-                            <a href="#">Услуги</a>
-                            <div className="bldropdown-content">
-                                <div className="recent">
-                                    <h4>Ремонт телефонов</h4>
-                                </div>
-                                <div className="recent">
-                                    <h4>Ремонт планшетов </h4>
-                                </div>
+                            <div >
+                                <a href="#" className="header__link"
+                                   onClick={() => setVisibleService(!visibleService)}>Услуги</a>
+                                <img src="img/done.png" alt=""/>
                             </div>
+                            {visibleService ? <DropdownService/> : null}
                         </li>
                         <li className="dropdown">
-                            <a href="#">Город</a>
-                            <div className="dropdown-content">
-                                <input type="text" placeholder="Выберете регион или город"/>
-                                <div className="recent">
-                                    <h4>Москва <span>и московская облость </span></h4>
-                                </div>
-                                <div className="recent">
-                                    <h4>Москва <span>и московская облость </span></h4>
-                                </div>
+                            <div onClick={() => setVisibleCountry(!visibleCountry)}>
+                                <a href="#" className="header__link">Город</a>
+                                <img src="img/done.png" alt=""/>
                             </div>
+                            {visibleCountry ? <DropdownCountry/> : null}
                         </li>
                         <li>
-                            <a href="#">Статьи</a>
+                            <a href="#" className="header__link">Статьи</a>
                         </li>
                         <li>
-                            <a href="#">Отзывы</a>
+                            <a href="#" className="header__link">Отзывы</a>
                         </li>
                         <li>
-                            <a href="#">Контакты</a>
+                            <a href="#" className="header__link">Контакты</a>
                         </li>
                     </ul>
                     <div className="header__profile">
-                        <img className="bordered" src="img/phone.png" alt=""/>
-                        <img className="bordered" src="img/email.svg" alt=""/>
-                        <Link to={"./login"}>
-                            <img src="img/profile.png" alt=""/>
+                        {/*If Use authorized)*/}
+                        {/*<img className="bordered" src="../img/phone.png" alt=""/>*/}
+                        {/*<img className="bordered" src="../img/email.svg" alt=""/>*/}
+                        {/*<Link to="/pick-login">*/}
+                        {/*    <img src="img/profile.png" alt=""/>*/}
+                        {/*</Link>*/}
+                        {/*<p>10000 ₽</p>*/}
+                        <Link to="/pick-login">
+                            Регистрация
                         </Link>
-                        <p>10000 ₽</p>
+                        <p> / </p>
+                        <Link to="/login">
+                             Вход
+                        </Link>
                     </div>
                 </div>
+                <div className="burger-btn" onClick={() => setMenuActive(!menuActive)}>
+                    <span/>
+                </div>
+                <Menu active={menuActive} setActive={setMenuActive}/>
             </header>
-            <Routes>
-                <Route path="/login" element={<Login/>}></Route>
-            </Routes>
-        </Router>
+            <Outlet/>
+        </>
     );
 }
 

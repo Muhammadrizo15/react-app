@@ -6,7 +6,7 @@ function App() {
             <div className="container">
                 <ul>
                     <li>
-                        <a href="#">Телефон: +7 (969) 7148750</a>
+                        <a href="">Телефон: +7 (969) 7148750</a>
                     </li>
                     <li>
                         <a href="#">Адрес: г. СПБ. Каховского 7 </a>
@@ -23,7 +23,7 @@ function App() {
                 </ul>
                 <ul>
                     <li>
-                        <a href="#">Ремонт iPhone</a>
+                        <a href="/remont">Ремонт iPhone</a>
                     </li>
                     <li>
                         <a href="#">Ремонт iPad</a>

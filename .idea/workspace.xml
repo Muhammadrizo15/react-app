@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a379f5-6ea2-487c-bccb-adacc9ca70e2" name="Changes" comment="">
+    <list default="true" id="06a379f5-6ea2-487c-bccb-adacc9ca70e2" name="Changes" comment="gfsfs">
+      <change afterPath="$PROJECT_DIR$/src/Chat/Kirill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/ReviewMaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Support.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/profileNumber.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChoiceOfReplenishmentMethod/ChoiceOfReplenishmentMethod.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChoiceOfReplenishmentMethod/ChoiceOfReplenishmentMethodCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChoiceOfReplenishmentMethod/ChoiceOfReplenishmentMethodHistory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChoiceOfReplenishmentMethod/pay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChoiceOfReplenishmentMethod/refill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Articles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Depature.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/Order.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfferAService.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pick-master/Pick-master.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pick-master/Reviews-master.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pick-master/pick-master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pick-master/reviews-master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registration/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registration/login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registration/pick-log.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registration/register-master.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Registration/register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Address.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Finance.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Price.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Setting-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Settings-all.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/services.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/AddDevices.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/AddedDevices.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/Archive.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/TitleService.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/added-devices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addDevices/titleService.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applications.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dropdownService.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fullgo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fullimage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/SidebarMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysuggest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/remont.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/ChoiceOfReplenishmentMethod.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/Contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/OfferAService.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/Price.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/ReviewMaster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/added.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/applications.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/detail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/finance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/history.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/image.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/mysuggest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pick-log.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/profileNumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/refill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/register-master.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/register.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/remont.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/settings-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/swiperDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +112,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="SCSS File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,6 +138,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Muhammadrizo/Documents/kwork/react_app/src/scss&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Muhammadrizo\\Documents\\kwork\\react_app\\node_modules\\typescript\\lib&quot;,
@@ -42,8 +146,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src\scss" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src\Registration" />
       <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src" />
+      <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src\Home" />
+      <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src\ChoiceOfReplenishmentMethod" />
+      <recent name="C:\Users\Muhammadrizo\Documents\kwork\react_app\src\scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,8 +191,67 @@
       <workItem from="1668241677084" duration="35000" />
       <workItem from="1668325298963" duration="1774000" />
       <workItem from="1668412833831" duration="221000" />
-      <workItem from="1668413753225" duration="1408000" />
+      <workItem from="1668413753225" duration="3344000" />
+      <workItem from="1668841380699" duration="15742000" />
+      <workItem from="1668867964909" duration="1754000" />
+      <workItem from="1669009891048" duration="8721000" />
+      <workItem from="1669027524090" duration="3116000" />
+      <workItem from="1669032262838" duration="2222000" />
+      <workItem from="1669184104481" duration="5695000" />
+      <workItem from="1669284491483" duration="3841000" />
+      <workItem from="1669294840098" duration="783000" />
+      <workItem from="1669366494577" duration="15898000" />
+      <workItem from="1669448621843" duration="11586000" />
+      <workItem from="1669476913324" duration="1718000" />
+      <workItem from="1669519275074" duration="8834000" />
+      <workItem from="1669626791247" duration="10003000" />
+      <workItem from="1669651244256" duration="604000" />
+      <workItem from="1669711666009" duration="13632000" />
+      <workItem from="1669741825952" duration="247000" />
+      <workItem from="1669778743759" duration="27921000" />
+      <workItem from="1669880474506" duration="16269000" />
+      <workItem from="1669906566562" duration="1131000" />
+      <workItem from="1669912688002" duration="81000" />
+      <workItem from="1669950802881" duration="26854000" />
+      <workItem from="1670038824057" duration="522000" />
+      <workItem from="1670040973427" duration="15734000" />
+      <workItem from="1670066012967" duration="312000" />
+      <workItem from="1670070816893" duration="503000" />
+      <workItem from="1670071862604" duration="1220000" />
+      <workItem from="1670082895516" duration="600000" />
+      <workItem from="1670126553554" duration="1413000" />
+      <workItem from="1670136377411" duration="10518000" />
+      <workItem from="1670210642335" duration="10217000" />
+      <workItem from="1670247550545" duration="1428000" />
+      <workItem from="1670252120241" duration="1220000" />
+      <workItem from="1670303323814" duration="19752000" />
+      <workItem from="1670388549792" duration="12455000" />
+      <workItem from="1670423834710" duration="294000" />
+      <workItem from="1670477233607" duration="13354000" />
+      <workItem from="1670510525801" duration="1352000" />
+      <workItem from="1670566293753" duration="3191000" />
+      <workItem from="1670589791178" duration="2339000" />
+      <workItem from="1670599067890" duration="3845000" />
+      <workItem from="1670607773313" duration="168000" />
+      <workItem from="1670650592449" duration="5065000" />
+      <workItem from="1670683761160" duration="1620000" />
+      <workItem from="1670693089511" duration="5141000" />
+      <workItem from="1670739174742" duration="3307000" />
+      <workItem from="1670752317013" duration="3872000" />
+      <workItem from="1670767526073" duration="593000" />
+      <workItem from="1670772770645" duration="641000" />
+      <workItem from="1670825494079" duration="427000" />
+      <workItem from="1670830128157" duration="1180000" />
+      <workItem from="1670839961043" duration="908000" />
     </task>
+    <task id="LOCAL-00001" summary="gfsfs">
+      <created>1668415210191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668415210191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +267,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gfsfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="gfsfs" />
   </component>
 </project>

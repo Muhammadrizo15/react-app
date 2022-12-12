@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_3 {
+    padding-top: 81px;
+}
+.page_3 * {
+    font-family: "Inter", serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.df {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.dg {
+    display: grid;
+}
+
+.font_abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.font_inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* page_3 start */
+
+.master {
+    margin: 125px 20px 0 54px;
+    width: 25%;
+}
+
+.master_information-text h2 {
+    margin: 0 10px 0 0;
+}
+
+.master_information {
+    justify-content: start;
+    width: 55%;
+}
+
+.stars_img img {
+    width: 22px;
+    margin: 0 2px 0 0;
+}
+
+.stars_master h3 {
+    margin: 8px 0 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+    letter-spacing: 0.1px;
+}
+
+.master_information-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+
+.level_line-1 {
+    margin: 0 13px 0 17px;
+    border: 1px solid #c5c5c5;
+    background-color: #c5c5c5;
+    width: 50%;
+    height: 7px;
+    border-radius: 4px;
+}
+
+.level_line-2 {
+    border: 1px solid #9597A5;
+    background-color: #9597A5;
+    width: 85%;
+    height: 5px;
+    border-radius: 4px;
+}
+
+.level_line-3 {
+    border: 1px solid #9597A5;
+    background-color: #9597A5;
+    width: 10%;
+    height: 5px;
+    border-radius: 4px;
+}
+
+.level_img img {
+    width: 16px;
+    height: 16px;
+}
+
+.level_text p {
+    width: 18px;
+    text-align: end;
+}
+
+.level_master {
+    margin: 5px 0;
+    justify-content: start;
+    width: 100%;
+}
+
+.btnasfd a {
+    margin: 0 122px 0 0;
+    border: 1px solid #D9573B;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    background: #D9573B;
+    border-radius: 15px;
+}
+
+.btnasfd a:hover {
+    background-color: #fff;
+    color: #D9573B;
+    border: 1px solid #D9573B;
+}
+
+.but a {
+    padding: 15px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    border: 1px solid #c5c5c5;
+    border-radius: 15px;
+}
+
+.but a:hover {
+    border: 1px solid transparent;
+    background-color: #fff;
+    filter: drop-shadow(-6.49px 2.622px 16px rgba(42, 87, 156, 0.18));
+}
+
+.master_button {
+    margin: 40px 0 48px 0;
+    justify-content: end;
+    width: 72.5%;
+}
+
+.prof-text h2 {
+    padding: 0 0 5px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+}
+
+.prof-kiril h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A9ABAD;
+}
+
+.prof-kiril {
+    justify-content: start;
+    width: 80%;
+}
+
+.nav-prof {
+    width: 42%;
+}
+
+.prof-text {
+    margin: 0 0 0 20px;
+}
+
+.prof_stars {
+    margin: 20px 0 0 0;
+}
+
+
+.prof_stars-text h3 {
+    padding: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.comment_text h2 {
+    padding: 20px 0 8px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.long_text p {
+    width: 530px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.img__2 {
+    background: #F8F9FB;
+    border-radius: 16px;
+    width: 199px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 12px;
+}
+
+
+.comment {
+    justify-content: space-between;
+}
+
+.kiril_text-2 h2 {
+    width: 160%;
+    padding: 0 0 4px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+}
+
+.kiril_text-2 h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A9ABAD;
+}
+
+.answers h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.answers p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.answers-kiril {
+    margin: 18px 0 0 85px;
+}
+
+.kiril {
+    width: 40%;
+    justify-content: space-between;
+}
+
+.answers h4 {
+    padding: 20px 0 8px 0;
+}
+
+.kiril_text-2 {
+    margin: 0 0 0 20px;
+}
+
+/* page_3 end */
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1500px) {
+    .kiril {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1210px) {
+    .kiril {
+        width: 70%;
+    }
+}
+
+@media (max-width: 930px) {
+    .kiril {
+        width: 100%;
+    }
+}
